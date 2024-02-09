@@ -332,14 +332,23 @@ button{
     .upper-menu__icon_repair-button-full::before{
         content: "Оставить заявку";
         align-content: flex-end;
-        margin-left: -180px;
+        margin-left: -160px;
 
     }
     .upper-menu__icon_check-status-button-full::before{
         content: "Статус ремонта";
         align-content: flex-end;
-        margin-left: -180px;
+        margin-left: -160px;
+
     }
+    .upper-menu__icon_check-status-button-full{
+        margin-left: 160px;
+    }
+    button{
+        padding-right: 20px;
+    }
+}
+
 
 
 }
