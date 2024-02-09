@@ -70,7 +70,7 @@ button{
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
     overflow: hidden;
-!important;
+    !important;
 }
 .highlight{
     width: 4px;
