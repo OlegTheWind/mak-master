@@ -1,38 +1,40 @@
-
+@import url("Font/TTLakes/stylesheet.css");
 @font-face {
-    font-family: 'TT Lakes';
-    src: url(Font/TTLakes/TTLakes-Medium.woff) format('woff');
+    font-family: 'TT Lakes-M';
+    src: url("Font/TTLakes/TTLakes-Medium.woff") format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'TT Lakes';
-    src: url(Font/TTLakes/TTLakes-Regular.woff) format('woff');
+    font-family: 'TT Lakes-R';
+    src: url("Font/TTLakes/TTLakes-Regular.woff") format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'TT Lakes';
-    src: url(Font/TTLakes/TTLakes-Bold.woff) format('woff');
+    font-family: 'TT Lakes-B';
+    src: url("Font/TTLakes/TTLakes-Bold.woff") format('woff');
     font-weight: 900;
     font-style: normal;
 }
 * {
     margin: 0;
     padding: 0;
-    font-family: 'TTLakes', serif;
     list-style-type: none;
     text-decoration: none;
 }
 body{
-    font-family: 'TT Lakes', serif;
+    /*font-family: 'TT Lakes';*/
     font-size: 18px;
     line-height: 24px;
     overflow: hidden;
-    /*letter-spacing: 2px;*/
+    letter-spacing: 0.2px;
     background-color: #F8F8F8;
+}
+.slide__menu{
+    font-family: 'TTLakes-M';
 }
 
 .wrapper{
@@ -122,7 +124,7 @@ button{
 
 }
 .upper-menu__icon_repair-button-full{
-    margin-left: -170px;
+    margin-left: -30px;
 }
 
 
@@ -347,8 +349,4 @@ button{
     button{
         padding-right: 20px;
     }
-}
-
-
-
 }
