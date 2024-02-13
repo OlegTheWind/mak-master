@@ -15,7 +15,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     overflow: hidden;
-    letter-spacing: 0.2px;
+    letter-spacing: -0.2px;
     background-color: #F8F8F8;
 }
 
@@ -42,21 +42,12 @@ button{
 
 .menu_upper{
     display: flex;
-
-}
-.menu_upper ul {
-    display: flex;
     justify-content: space-between;
 }
-
 .block1__text{
-    margin-left: 16px;
-    font-size: 16px;
-    line-height: 18px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .highlight{
@@ -86,11 +77,6 @@ button{
 .slide__button{
     color: #7E7E82;
 }
-
-.block__text{
-    margin: 15px 0;
-}
-
 .background__img{
     margin: 15px 0;
 }
@@ -140,6 +126,14 @@ button{
 }
 
 @media (min-width: 320px) {
+
+    .block1__text{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+
+    }
     .button__active-b{
         display: none;
     }
@@ -212,10 +206,6 @@ button{
     .button__active-b{
         display: block;
     }
-
-    .block__text{
-        margin: 17px 0;
-    }
     .background__img {
         margin: 17px 0;
     }
@@ -252,7 +242,7 @@ button{
         display: flex;
         justify-content: space-between;
         align-items: stretch;
-        height: 160px;
+        height: 150px;
     }
 
     .background__img{
@@ -281,7 +271,7 @@ button{
     }
 
 }
-@media (min-width: 1120px) {
+@media (min-width: 1120px){
     .menu_upper{
         display: none;
     }
@@ -336,7 +326,9 @@ button{
         margin-left: -160px;
 
     }
-
+    .block1__text{
+        height: 190px;
+    }
     button{
         padding-right: 20px;
     }
