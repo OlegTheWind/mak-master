@@ -318,12 +318,14 @@ button{
         content: "Оставить заявку";
         align-content: flex-end;
         margin-left: -160px;
-
+        letter-spacing: -0.2px;
+        font-size: 18px;
     }
     .upper-menu__icon_check-status-button-full::before{
         content: "Статус ремонта";
         letter-spacing: -0.2px;
         margin-left: -160px;
+        font-size: 18px;
 
     }
     .block1__text{
